@@ -5,7 +5,7 @@ TOCTitle: Tutorial
 PageTitle: Get started with development Containers in Visual Studio Code
 ContentId: 8e1fb9e0-1a67-4e0c-a21b-c5ab9a6d979c
 MetaDescription: Get started with development Containers in Visual Studio Code
-DateApproved: 5/3/2023
+DateApproved: 7/6/2023
 ---
 # Dev Containers tutorial
 
@@ -23,7 +23,7 @@ Docker is needed to create and manage your containers.
 
 ### Docker Desktop
 
-Download and install [Docker Desktop](https://www.docker.com/products/docker-desktop).
+Download and install [Docker Desktop](https://www.docker.com/products/docker-desktop), or an [alternative Docker option](/remote/advancedcontainers/docker-options.md), like Docker on a remote host or Docker compliant CLI.
 
 ### Start Docker
 
@@ -64,7 +64,7 @@ The Remote Status bar item can quickly show you in which context VS Code is runn
 
 To create a Docker container, we are going to open a GitHub repository with a Node.js project.
 
-Select **Dev Containers: Try a Dev Container Sample...** from the command list that appears and select the Node sample from the list.
+Open the Command Palette (`F1`) to run the command **Dev Containers: Try a Dev Container Sample...** and select the Node sample from the list.
 
 ![Select a sample from the list](images/containers/select-a-sample.png)
 

@@ -4,7 +4,7 @@ Area: editor
 TOCTitle: Snippets
 ContentId: 79CD9B45-97FF-48B1-8DD5-2555F56206A6
 PageTitle: Snippets in Visual Studio Code
-DateApproved: 5/3/2023
+DateApproved: 7/6/2023
 MetaDescription: It is easy to add code snippets to Visual Studio Code both for your own use or to share with others on the public Extension Marketplace. TextMate .tmSnippets files are supported.
 ---
 # Snippets in Visual Studio Code
@@ -150,6 +150,7 @@ For inserting the current date and time:
 * `CURRENT_MINUTE` The current minute as two digits
 * `CURRENT_SECOND` The current second as two digits
 * `CURRENT_SECONDS_UNIX` The number of seconds since the Unix epoch
+* `CURRENT_TIMEZONE_OFFSET` The current UTC time zone offset as `+HHMM` or `-HHMM` (example `-0700`).
 
 For inserting random values:
 
@@ -160,7 +161,7 @@ For inserting random values:
 For inserting line or block comments, honoring the current language:
 
 * `BLOCK_COMMENT_START` Example output: in PHP `/*` or in HTML `<!--`
-* `BLOCK_COMMENT_END ` Example output: in PHP `*/` or in HTML `-->`
+* `BLOCK_COMMENT_END` Example output: in PHP `*/` or in HTML `-->`
 * `LINE_COMMENT` Example output: in PHP `//`
 
 The snippet below inserts `/* Hello World */` in JavaScript files and `<!-- Hello World -->` in HTML files:
